@@ -1,26 +1,78 @@
-# PC16 Week 13 - FoodToGo Flutter UI
+# Week 14: Flutter Foundations & Static UI (Part 2)
 
-**Student Name:** Raniel Piollo A. Camarador  
-**Section:** BSIT 2.1  
-**Project:** FoodToGo Static Mobile UI
+## Project Description
+This project is a static mobile application interface called **FoodToGo**, developed using Flutter and Dart.
 
-## Description
-This project is a static mobile user interface created using Flutter. It demonstrates basic Flutter widgets and layouts such as MaterialApp, Scaffold, SafeArea, Container, Column, Row, and Text.
+It contains two related mobile screens designed to demonstrate Flutter widget composition, layouts, image assets, sizing, spacing, and consistent visual styling.
 
-## Features
-- FoodToGo home screen
-- Search bar design
-- Food categories
-- Popular food cards
-- Static, non-interactive layout
+## Screens
 
-## How to Run
-1. Open the project folder.
-2. Run `flutter pub get`.
-3. Run `flutter run -d chrome`.
+### 1. FoodToGo Home Screen
+- Displays a welcome message and heading.
+- Includes a search bar.
+- Shows food categories.
+- Displays a special offer banner.
+- Shows popular food items.
 
-## Tools
-- Flutter
-- Dart
-- Visual Studio Code
-- Google Chrome
+### 2. Food Details Screen
+- Displays a food image.
+- Shows the food name, price, and rating.
+- Includes preparation time and description.
+- Displays ingredients.
+- Includes a static Add to Cart button design.
+
+## Flutter Concepts Used
+- MaterialApp and ThemeData
+- StatelessWidget
+- Scaffold
+- Row and Column
+- Container and Padding
+- Stack and Positioned
+- Expanded and SizedBox
+- Image.asset()
+- Local image assets
+- Text and Icon widgets
+
+## Project Structure
+```text
+lib/
+├── main.dart
+└── screens/
+    ├── home_screen.dart
+    └── food_details_screen.dart
+
+assets/
+└── images/
+    ├── burger.jpg
+    └── pizza.jpg
+
+pubspec.yaml
+README.md
+```
+
+## How to Run the Project
+
+1. Clone this repository.
+2. Open the project folder in VS Code.
+3. Open the terminal.
+4. Install the dependencies:
+
+```bash
+flutter pub get
+```
+
+5. Run the application:
+
+```bash
+flutter run -d chrome
+```
+
+## Project Information
+- **Project:** FoodToGo
+- **Activity:** Week 14 – Flutter Foundations & Static UI (Part 2)
+- **Student:** Raniel Piollo A. Camarador
+- **Section:** BSIT 2.1
+- **College:** The National Teachers College
+
+## Note
+This project focuses on static UI design. Buttons and other visual elements are for display purposes only. No functional navigation or interaction is implemented.
